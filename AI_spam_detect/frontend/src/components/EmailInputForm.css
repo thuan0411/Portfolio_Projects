@@ -1,0 +1,169 @@
+.email-input-form-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: #8baaaa;
+}
+
+.form-group textarea.error {
+  border-color: #e74c3c;
+}
+
+.char-count {
+  text-align: right;
+  color: #999;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  padding: 8px;
+  background: #fee;
+  border-radius: 4px;
+}
+
+.api-error {
+  margin-top: 15px;
+}
+
+.example-emails {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.example-emails p {
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.example-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.example-btn {
+  padding: 8px 16px;
+  border: 1px solid #8baaaa;
+  background: white;
+  color: #8baaaa;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.example-btn:hover:not(:disabled) {
+  background: #8baaaa;
+  color: white;
+}
+
+.example-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #8baaaa 0%, #ae8b9c 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 20px;
+}
+
+.submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(139, 170, 170, 0.4);
+}
+
+.submit-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .example-buttons {
+    flex-direction: column;
+  }
+
+  .example-btn {
+    width: 100%;
+  }
+}
+

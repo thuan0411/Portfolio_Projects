@@ -1,0 +1,14 @@
+{
+  "model_type": "MultinomialNB",
+  "accuracy": 0.9650023331777882,
+  "precision": 0.9122807017543859,
+  "recall": 0.900990099009901,
+  "f1_score": 0.9066002490660025,
+  "n_features": 10000,
+  "n_train_samples": 8572,
+  "n_test_samples": 2143,
+  "assignment": "Assignment_2",
+  "integration_ready": true,
+  "copied_from": "Assignment_2",
+  "integration": "API_Link"
+}
